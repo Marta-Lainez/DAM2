@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="signUp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="Bounty Hunters"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="Guild"
+        android:textColor="#7A1616"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        app:srcCompat="@mipmap/helmet" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC"
+        android:onClick="logIn"
+        android:text="LOG IN"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC"
+        android:onClick="signUp"
+        android:text="SIGN UP"
+        android:textColor="#000000" />
+
+</LinearLayout>

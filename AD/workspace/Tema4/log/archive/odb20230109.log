@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-09 20:18:41 #1 store] 
+Database 'D:\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 596@PC12
+
+[2023-01-09 20:18:41 #2 store] 
+Configuration path: ?
+
+[2023-01-09 20:18:42 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-09 20:18:42 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-09 20:18:42 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-09 20:18:42 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-09 20:18:42 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-09 20:18:42 #8 store] 
+Database 'D:\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 596@PC12
+

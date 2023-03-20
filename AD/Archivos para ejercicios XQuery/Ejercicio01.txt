@@ -1,0 +1,348 @@
+Dado el archivo Ejercicio01.xml, realiza las sentencias XQuery necesarias para obtener los resultados
+que se indica en cada uno de los apartados:
+a) Títulos de los libros con la etiqueta "titulo".
+	for $l in doc("Ejercicio01.xml")//book/title/text()
+	return <titulo>{ $l }</titulo>
+	
+	<titulo>Everyday Italian</titulo>
+	<titulo>Harry Potter</titulo>
+	<titulo>XQuery Kick Start</titulo>
+	<titulo>Learning XML</titulo>
+
+b) Libros cuyo precio sea menor o igual a 30 incluyendo la condición en la cláusula "where".
+	for $l in doc("Ejercicio01.xml")//book
+	where $l/price <=30
+	return $l
+	
+	<book category="COOKING">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="CHILDREN">
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+
+	
+c) Libros cuyo precio sea menor o igual a 30 incluyendo la condición en la ruta del XPath.
+	for $l in doc("Ejercicio01.xml")//book[price <=30]
+	return $l
+	
+	<book category="COOKING">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="CHILDREN">
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+
+	
+d) Título de los libros cuyo precio sea menor o igual a 30.
+	for $l in doc("Ejercicio01.xml")//book[price <=30]
+	return $l/title
+	
+	<title lang="en">Everyday Italian</title>
+	<title lang="en">Harry Potter</title>
+
+e) Título sin atributos de los libros cuyo precio sea menor o igual a 30.
+	
+	for $l in doc("Ejercicio01.xml")//book[price <=30]
+	return $l/title/text()
+	
+	Everyday Italian
+	Harry Potter
+	
+f) Título y autor de los libros del año 2005, y etiquetar cada uno de ellos con "lib2005".
+	
+	for $l in doc("Ejercicio01.xml")//book[year = 2005]
+	return <lib2005>{$l/title}{$l/author}</lib2005>
+	
+	<lib2005><title lang="en">Everyday Italian</title><author>Giada De Laurentiis</author></lib2005>
+	<lib2005><title lang="en">Harry Potter</title><author>J K. Rowling</author></lib2005>
+	
+	for $l in doc("Ejercicio01.xml")//book[year = 2005]
+	let $titulo := $l/title
+	let $autor := $l/author
+	return <lib2005>{$titulo}{$autor}</lib2005>
+	
+	<lib2005><title lang="en">Everyday Italian</title><author>Giada De Laurentiis</author></lib2005>
+	<lib2005><title lang="en">Harry Potter</title><author>J K. Rowling</author></lib2005>
+
+g) Años de publicación con la etiqueta publicación. Dos versiones: una con for y otra con let.
+	
+	for $l in doc("Ejercicio01.xml")//book/year/text()
+	return <publicacion>{$l}</publicacion>
+		
+	<publicacion>2005</publicacion>
+	<publicacion>2005</publicacion>
+	<publicacion>2003</publicacion>
+	<publicacion>2003</publicacion>
+	
+	let $l := doc("Ejercicio01.xml")//book/year
+	return <publicacion>{$l}</publicacion>
+	
+	<publicacion><year>2005</year><year>2005</year><year>2003</year><year>2003</year></publicacion>
+
+h) Libros ordenados primero por "category" y luego por "title" en una sola consulta.
+	
+	for $l in //book
+	order by $l/@category, $l/title
+	return $l
+	
+	<book category="CHILDREN">
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+	<book category="COOKING">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="WEB">
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+		<price>39.95</price>
+	</book>
+	<book category="WEB">
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<author>Per Bothner</author>
+		<author>Kurt Cagle</author>
+		<author>James Linn</author>
+		<author>Vaidyanathan Nagarajan</author>
+		<year>2003</year>
+		<price>49.99</price>
+	</book>
+
+i) Título del libro, su precio y su precio con el IVA incluido, cada uno con su propia etiqueta y
+ordenados por precio con IVA.
+	
+	for $l in //book
+	let $titulo := $l/title/text()
+	let $precio := $l/price/text()
+	let $iva := $l/price*1.21
+	order by $iva
+	return <libro>
+			<titulo>{$titulo}</titulo>
+			<precio>{$precio}</precio>
+			<precio_iva>{$iva}</precio_iva>
+		</libro>
+		
+	<libro><titulo>Harry Potter</titulo><precio>29.99</precio><precio_iva>36.2879</precio_iva></libro>
+	<libro><titulo>Everyday Italian</titulo><precio>30.00</precio><precio_iva>36.3</precio_iva></libro>
+	<libro><titulo>Learning XML</titulo><precio>39.95</precio><precio_iva>48.3395</precio_iva></libro>
+	<libro><titulo>XQuery Kick Start</titulo><precio>49.99</precio><precio_iva>60.4879</precio_iva></libro>
+	
+j) Títulos en una tabla de HTML.
+	
+	<html>
+		<body>
+			<table border="1">
+			{
+			for $x in doc("Ejercicio01.xml")//book
+			return <tr><td>{string($x/title)}</td></tr>
+			}
+			</table>
+		</body>
+	</html>
+	
+	<html><body><table border="1"><tr><td>Everyday Italian</td></tr><tr><td>Harry Potter</td></tr><tr><td>XQuery Kick Start</td></tr><tr><td>Learning XML</td></tr></table></body></html>
+	
+k) Cantidad de libros en una etiqueta "total".
+	
+	let $libros := count(//book)
+	return <total>{$libros}</total>
+	
+	<total>4</total>
+	
+l) Títulos de los libros y al final una etiqueta con el número total de libros.
+	
+	let $titulos := //title
+	let $libros := count($titulos)
+	return 
+		<libros>
+		<titulo>{$titulos}</titulo>
+		<total>{$libros}</total>
+		</libros>
+	
+	<libros><titulo><title lang="en">Everyday Italian</title><title lang="en">Harry Potter</title><title lang="en">XQuery Kick Start</title><title lang="en">Learning XML</title></titulo><total>4</total></libros>
+	
+m) Precio mínimo y máximo de los libros, cada uno en una etiqueta.
+
+	let $precios := //price
+	let $min := min($precios)
+	let $max := max($precios)
+	return 
+	<precios>
+	<maximo>{$max}</maximo>
+	<minimo>{$min}</minimo>
+	</precios>
+	
+	<precios><maximo>49.99</maximo><minimo>29.99</minimo></precios>
+
+n) Suma total de los precios de los libros con la etiqueta "total".
+	
+	let $precios := //price
+	let $total := sum($precios)
+	return 
+	<total>{$total}</total>
+	
+	<total>149.93</total>
+
+o) Precios de los libros, y al final una etiqueta con la suma de los precios.
+	
+	let $precios := //price
+	let $total := sum($precios)
+	return 
+	<precios>
+	{$precios}
+	<total>{$total}</total>
+	</precios>
+	
+	<precios><price>30.00</price><price>29.99</price><price>49.99</price><price>39.95</price><total>149.93</total></precios>
+	
+p) Título y número de autores que tiene cada título en etiquetas diferentes.
+
+	for $l in //book
+	let $titulo := $l/title/text()
+	let $autores := count($l/author)
+	return 
+	<libros>
+	<titulo>{$titulo}</titulo>
+	<autores>{$autores}</autores>
+	</libros>
+	
+	<libros><titulo>Everyday Italian</titulo><autores>1</autores></libros>
+	<libros><titulo>Harry Potter</titulo><autores>1</autores></libros>
+	<libros><titulo>XQuery Kick Start</titulo><autores>5</autores></libros>
+	<libros><titulo>Learning XML</titulo><autores>1</autores></libros>
+
+	
+q) En la misma etiqueta, el título y entre paréntesis el número de autores que tiene ese título.
+
+	for $l in //book
+	let $titulo := $l/title/text()
+	let $autores := count($l/author)
+	return 
+	<libros>{$titulo}({$autores})</libros>
+	
+	<libros>Everyday Italian(1)</libros>
+	<libros>Harry Potter(1)</libros>
+	<libros>XQuery Kick Start(5)</libros>
+	<libros>Learning XML(1)</libros>
+
+r) Libros escritos en años que terminen en "3".
+	
+	for $l in //book
+	where ends-with($l/year, "3")
+	return $l
+	
+	<book category="WEB">
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<author>Per Bothner</author>
+		<author>Kurt Cagle</author>
+		<author>James Linn</author>
+		<author>Vaidyanathan Nagarajan</author>
+		<year>2003</year>
+		<price>49.99</price>
+	</book>
+	<book category="WEB">
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+		<price>39.95</price>
+	</book>
+
+s) Libros cuya categoría empiece por "C".
+	for $l in //book
+	where starts-with($l/@category, "C")
+	return $l
+	
+	<book category="COOKING">
+		<title lang="en">Everyday Italian</title>
+		<author>Giada De Laurentiis</author>
+		<year>2005</year>
+		<price>30.00</price>
+	</book>
+	<book category="CHILDREN">
+		<title lang="en">Harry Potter</title>
+		<author>J K. Rowling</author>
+		<year>2005</year>
+		<price>29.99</price>
+	</book>
+	
+t) Libros que tengan una "X" mayúscula o minúscula en el título.
+	
+	for $l in //book
+	where contains($l/title, "X") or contains($l/title, "x")
+	return $l
+	
+	<book category="WEB">
+		<title lang="en">XQuery Kick Start</title>
+		<author>James McGovern</author>
+		<author>Per Bothner</author>
+		<author>Kurt Cagle</author>
+		<author>James Linn</author>
+		<author>Vaidyanathan Nagarajan</author>
+		<year>2003</year>
+		<price>49.99</price>
+	</book>
+	<book category="WEB">
+		<title lang="en">Learning XML</title>
+		<author>Erik T. Ray</author>
+		<year>2003</year>
+		<price>39.95</price>
+	</book>
+	
+u) Título y número de caracteres que tiene cada título, cada uno con su propia etiqueta.
+	for $l in //book
+	let $titulo := $l/title
+	let $caracteres := string-length($titulo)
+	return <libro>
+		<titulo>{$titulo/text()}</titulo>
+		<caracteres>{$caracteres}</caracteres>
+		</libro>
+	
+	<libro><titulo>Everyday Italian</titulo><caracteres>16</caracteres></libro>
+	<libro><titulo>Harry Potter</titulo><caracteres>12</caracteres></libro>
+	<libro><titulo>XQuery Kick Start</titulo><caracteres>17</caracteres></libro>
+	<libro><titulo>Learning XML</titulo><caracteres>12</caracteres></libro>
+
+v) Años en los que se ha publicado un libro eliminando los repetidos y con la etiqueta “agno”.
+	
+	for $agno in distinct-values(//year)
+	return <agno>{$agno}</agno>
+	
+	<agno>2005</agno>
+	<agno>2003</agno>
+
+w) Todos los autores eliminando los que se repiten y ordenados por el número de caracteres que
+tiene cada autor
+
+	for $autor in distinct-values(//author)
+	let $caracteres := string-length($autor)
+	order by $caracteres
+	return <autor>{$autor}</autor>
+	
+	<autor>Kurt Cagle</autor>
+	<autor>James Linn</autor>
+	<autor>Per Bothner</autor>
+	<autor>Erik T. Ray</autor>
+	<autor>J K. Rowling</autor>
+	<autor>James McGovern</autor>
+	<autor>Giada De Laurentiis</autor>
+	<autor>Vaidyanathan Nagarajan</autor>

@@ -1,0 +1,937 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 18:58:24 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 2412@SalsaOverPower
+
+[2023-01-15 18:58:24 #2 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:24 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 18:58:24 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 18:58:24 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 18:58:24 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 18:58:24 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 18:58:24 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #10 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:34 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #13 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:34 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #16 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:34 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 2412@SalsaOverPower
+
+[2023-01-15 18:58:34 #19 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:34 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 2412@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 18:58:54 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12820@SalsaOverPower
+
+[2023-01-15 18:58:54 #2 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:55 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 18:58:55 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 18:58:55 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 18:58:55 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 18:58:55 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 18:58:55 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #10 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:59 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #13 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:59 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #16 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:59 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12820@SalsaOverPower
+
+[2023-01-15 18:58:59 #19 store] 
+Configuration path: ?
+
+[2023-01-15 18:58:59 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12820@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:00:53 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15408@SalsaOverPower
+
+[2023-01-15 19:00:53 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:00:53 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:00:53 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:00:53 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:00:53 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:00:53 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:00:53 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:00:59 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:00:59 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:00:59 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15408@SalsaOverPower
+
+[2023-01-15 19:00:59 #19 store] 
+Configuration path: ?
+
+[2023-01-15 19:00:59 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15408@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:01:36 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17580@SalsaOverPower
+
+[2023-01-15 19:01:36 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:36 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:01:36 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:01:36 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:01:36 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:01:36 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:01:36 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:40 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:40 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17580@SalsaOverPower
+
+[2023-01-15 19:01:40 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:40 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17580@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:01:48 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 6316@SalsaOverPower
+
+[2023-01-15 19:01:48 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:48 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:01:48 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:01:48 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:01:48 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:01:48 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:01:48 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:52 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:52 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 6316@SalsaOverPower
+
+[2023-01-15 19:01:52 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:01:52 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 6316@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:17:15 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 10144@SalsaOverPower
+
+[2023-01-15 19:17:15 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:17:15 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:17:15 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:17:15 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:17:15 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:17:15 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:17:15 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 10144@SalsaOverPower
+
+[2023-01-15 19:17:20 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 10144@SalsaOverPower
+
+[2023-01-15 19:17:20 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:17:20 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:17:21 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:17:21 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 10144@SalsaOverPower
+
+[2023-01-15 19:17:21 #19 store] 
+Configuration path: ?
+
+[2023-01-15 19:17:21 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 10144@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:20:17 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 18020@SalsaOverPower
+
+[2023-01-15 19:20:17 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:20:17 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:20:17 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:20:17 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:20:17 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:20:17 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:20:17 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 18020@SalsaOverPower
+
+[2023-01-15 19:20:17 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 18020@SalsaOverPower
+
+[2023-01-15 19:20:17 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:20:17 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 18020@SalsaOverPower
+
+[2023-01-15 19:20:17 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 18020@SalsaOverPower
+
+[2023-01-15 19:20:17 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:20:17 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 18020@SalsaOverPower
+
+[2023-01-15 19:20:18 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 18020@SalsaOverPower
+
+[2023-01-15 19:20:18 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:20:18 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 18020@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:22:17 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4768@SalsaOverPower
+
+[2023-01-15 19:22:17 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:22:17 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:22:17 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:22:17 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:22:17 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:22:17 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:22:17 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4768@SalsaOverPower
+
+[2023-01-15 19:22:19 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4768@SalsaOverPower
+
+[2023-01-15 19:22:19 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:22:19 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4768@SalsaOverPower
+
+[2023-01-15 19:22:20 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4768@SalsaOverPower
+
+[2023-01-15 19:22:20 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:22:20 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4768@SalsaOverPower
+
+[2023-01-15 19:22:20 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4768@SalsaOverPower
+
+[2023-01-15 19:22:20 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:22:20 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4768@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:23:24 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 14332@SalsaOverPower
+
+[2023-01-15 19:23:24 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:23:24 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:23:24 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:23:24 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:23:24 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:23:24 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:23:24 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 14332@SalsaOverPower
+
+[2023-01-15 19:23:24 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 14332@SalsaOverPower
+
+[2023-01-15 19:23:24 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:23:24 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 14332@SalsaOverPower
+
+[2023-01-15 19:23:25 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 14332@SalsaOverPower
+
+[2023-01-15 19:23:25 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:23:25 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 14332@SalsaOverPower
+
+[2023-01-15 19:23:25 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 14332@SalsaOverPower
+
+[2023-01-15 19:23:25 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:23:25 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 14332@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:24:41 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15192@SalsaOverPower
+
+[2023-01-15 19:24:41 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:24:42 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:24:42 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:24:42 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:24:42 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:24:42 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:24:42 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15192@SalsaOverPower
+
+[2023-01-15 19:24:42 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15192@SalsaOverPower
+
+[2023-01-15 19:24:42 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:24:42 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15192@SalsaOverPower
+
+[2023-01-15 19:24:42 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15192@SalsaOverPower
+
+[2023-01-15 19:24:42 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:24:42 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15192@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:26:23 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 9116@SalsaOverPower
+
+[2023-01-15 19:26:23 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:26:23 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:26:23 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:26:23 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:26:23 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:26:23 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:26:23 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 9116@SalsaOverPower
+
+[2023-01-15 19:26:23 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 9116@SalsaOverPower
+
+[2023-01-15 19:26:23 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:26:23 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 9116@SalsaOverPower
+
+[2023-01-15 19:26:23 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 9116@SalsaOverPower
+
+[2023-01-15 19:26:23 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:26:23 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 9116@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:33:34 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:33:34 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:33:34 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:33:34 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:33:34 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:33:34 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:33:34 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:33:34 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+[2023-01-15 19:34:02 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:34:02 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:02 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:07 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:07 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:34:07 #19 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:07 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+[2023-01-15 19:34:08 #21 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 17212@SalsaOverPower
+
+[2023-01-15 19:34:08 #22 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:08 #23 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 17212@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:34:26 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4748@SalsaOverPower
+
+[2023-01-15 19:34:26 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:26 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:34:26 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:34:26 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:34:26 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:34:26 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:34:26 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:30 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:30 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 4748@SalsaOverPower
+
+[2023-01-15 19:34:30 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:34:30 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 4748@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:40:27 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 16936@SalsaOverPower
+
+[2023-01-15 19:40:27 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:40:27 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:40:27 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:40:27 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:40:27 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:40:27 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:40:27 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 16936@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:40:42 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12116@SalsaOverPower
+
+[2023-01-15 19:40:42 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:40:43 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:40:43 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:40:43 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:40:43 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:40:43 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:40:43 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12116@SalsaOverPower
+
+[2023-01-15 19:40:43 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12116@SalsaOverPower
+
+[2023-01-15 19:40:43 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:40:43 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12116@SalsaOverPower
+
+[2023-01-15 19:40:43 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 12116@SalsaOverPower
+
+[2023-01-15 19:40:43 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:40:43 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 12116@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 19:41:02 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 7824@SalsaOverPower
+
+[2023-01-15 19:41:02 #2 store] 
+Configuration path: ?
+
+[2023-01-15 19:41:02 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 19:41:02 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 19:41:02 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 19:41:02 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 19:41:02 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 19:41:02 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #10 store] 
+Configuration path: ?
+
+[2023-01-15 19:41:03 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #13 store] 
+Configuration path: ?
+
+[2023-01-15 19:41:03 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 7824@SalsaOverPower
+
+[2023-01-15 19:41:03 #16 store] 
+Configuration path: ?
+
+[2023-01-15 19:41:03 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 7824@SalsaOverPower
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2023-01-15 21:51:35 #1 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:51:35 #2 store] 
+Configuration path: ?
+
+[2023-01-15 21:51:35 #3 type] 
+Type modelo.Jugador is not enhanced.
+
+[2023-01-15 21:51:35 #4 type] 
+Type modelo.Fecha is not enhanced.
+
+[2023-01-15 21:51:35 #5 type] 
+Type modelo.Equipo is not enhanced.
+
+[2023-01-15 21:51:35 #6 type] 
+Type modelo.Partido is not enhanced.
+
+[2023-01-15 21:51:35 #7 type] 
+Type modelo.Resultado is not enhanced.
+
+[2023-01-15 21:51:35 #8 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:51:35 #9 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:51:35 #10 store] 
+Configuration path: ?
+
+[2023-01-15 21:51:35 #11 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:51:35 #12 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:51:35 #13 store] 
+Configuration path: ?
+
+[2023-01-15 21:51:35 #14 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:51:53 #15 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:51:53 #16 store] 
+Configuration path: ?
+
+[2023-01-15 21:51:53 #17 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #18 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #19 store] 
+Configuration path: ?
+
+[2023-01-15 21:52:00 #20 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #21 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #22 store] 
+Configuration path: ?
+
+[2023-01-15 21:52:00 #23 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #24 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:52:00 #25 store] 
+Configuration path: ?
+
+[2023-01-15 21:52:00 #26 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+
+[2023-01-15 21:52:04 #27 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is opened by 15160@SalsaOverPower
+
+[2023-01-15 21:52:04 #28 store] 
+Configuration path: ?
+
+[2023-01-15 21:52:04 #29 store] 
+Database 'D:\FP2\DAM2\AD\workspace\Tema4\data\campeonato.odb' is closed by 15160@SalsaOverPower
+

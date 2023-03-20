@@ -1,0 +1,64 @@
+a) Nombre del Instituto:
+	/ies/nombre/text()
+	
+	IES Pablo Serrano
+	
+b) Página web del Instituto:
+	/ies/web/text()
+	
+	https://www.iespabloserrano.es/
+	
+c) Nombre de los Ciclos Formativos
+	//ciclo/nombre/text()
+	
+	Desarrollo de Aplicaciones Multiplataforma
+	Desarrollo de Aplicaciones Web
+	Gestión Administrativa
+	Administración y Finanzas
+	
+d) Siglas por las que se conocen los Ciclos Formativos.
+	//@id/text()
+	
+	id=DAM
+	id=DAW
+	id=ADG
+	id=ADF
+	
+e) Años en los que se publicaron los decretos de título de los Ciclos Formativos:
+	//@agno
+	
+	agno=2010
+	agno=2010
+	agno=2009
+	agno=2011
+	
+f) Ciclos Formativos de Grado Medio (obtener el elemento <ciclo> completo):
+	//ciclo[grado = "Medio"]
+	
+	<ciclo id="ADG">
+      <nombre>Gestión Administrativa</nombre>
+      <grado>Medio</grado>
+      <decretoTitulo agno="2009"/>
+    </ciclo>
+
+g) Nombre de los Ciclos Formativos de Grado Superior:
+	//ciclo[grado = "Superior"]/nombre/text()
+	
+	Desarrollo de Aplicaciones Multiplataforma
+	Desarrollo de Aplicaciones Web
+	Administración y Finanzas
+	
+h) Nombre de los Ciclos Formativos anteriores a 2010:
+	//ciclo[decretoTitulo < "2010"]/nombre/text()
+	
+	Desarrollo de Aplicaciones Multiplataforma
+	Desarrollo de Aplicaciones Web
+	Gestión Administrativa
+	Administración y Finanzas
+
+i) Nombre de los Ciclos Formativos de 2009 o 2010:
+	//ciclo[decretoTitulo/@agno = "2009" or decretoTitulo/@agno = "2010"]/nombre/text()
+	
+	<nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+	<nombre>Desarrollo de Aplicaciones Web</nombre>
+	<nombre>Gestión Administrativa</nombre>

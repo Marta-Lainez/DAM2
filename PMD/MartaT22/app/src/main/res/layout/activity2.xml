@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="Wellcome back:"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="center_horizontal"
+        android:text="John"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC"
+        android:text="View hunters"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC"
+        android:onClick="onClickNew"
+        android:text="Create Bounty"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/empty2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCBCBC"
+        android:onClick="onClickSalir"
+        android:text="Exit"
+        android:textColor="#000000" />
+</LinearLayout>

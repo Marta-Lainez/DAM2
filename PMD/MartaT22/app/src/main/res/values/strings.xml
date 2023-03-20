@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MartaT22</string>
+    <string name="ok">Ok</string>
+    <string-array name="species">
+        <item>Human</item>
+        <item>Droid</item>
+        <item>Mandalorian</item>
+    </string-array>
+</resources>

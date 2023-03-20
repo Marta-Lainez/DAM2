@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MartaLainezt24canvas</string>
+    <string-array name="colores">
+        <item>Negro</item>
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Blanco</item>
+    </string-array>
+</resources>

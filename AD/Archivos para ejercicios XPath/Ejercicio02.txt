@@ -1,0 +1,39 @@
+a) Nombre de los módulos que se imparten en el Instituto:
+	//modulo/nombre/text()
+	
+	Empresa y administración
+	Programación multimedia y dispositivos móviles
+	Lenguajes de marcas y sistemas de gestión de información
+	Programación de servicios y procesos
+	
+b) Nombre de los módulos del ciclo DAM:
+	//modulo[ciclo = "DAM"]/nombre/text()
+	
+	Programación multimedia y dispositivos móviles
+	Lenguajes de marcas y sistemas de gestión de información
+	Programación de servicios y procesos
+
+c) Nombre de los módulos que se imparten en el segundo curso de cualquier ciclo:
+	//modulo[curso = "2"]/nombre/text()
+	
+	Empresa y administración
+	Programación multimedia y dispositivos móviles
+	Programación de servicios y procesos
+	
+d) Nombre de los módulos de menos de 5 horas semanales:
+	//modulo[horasSemanales < "5"]/nombre/text()
+	
+	Lenguajes de marcas y sistemas de gestión de información
+	Programación de servicios y procesos
+	
+e) Nombre de los módulos que se imparten en el primer curso de DAM:
+	//modulo[curso = "1" and ciclo = "DAM"]/nombre/text()
+	
+	Lenguajes de marcas y sistemas de gestión de información
+	
+f) Horas semanales de los módulos de más de 3 horas semanales:
+	//modulo[horasSemanales > "3"]/horasSemanales/text()
+	
+	5
+	5
+

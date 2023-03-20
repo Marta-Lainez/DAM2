@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Internalizacion_Marta</string>
+    <string name="word01">Computer</string>
+    <string name="word02">Laptop</string>
+    <string name="language01">English</string>
+    <string name="language02">Spanish</string>
+</resources>

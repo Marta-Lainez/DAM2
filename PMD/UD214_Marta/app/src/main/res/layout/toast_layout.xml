@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutToast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="233dp"
+        android:layout_height="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frenchtoast" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="176dp"
+        android:layout_height="31dp"
+        android:text="Toast:"
+        app:layout_constraintTop_toBottomOf="@+id/iv"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="188dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        tools:layout_editor_absoluteX="31dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+select j from Jugador j where j.nombre.length() > 6;
+selct e from Equipo e where e.nombre.startsWith("A");
+select e from Equipo e, Jugador j where e.jugadores.contains(j) and j.codigo = 12;
+select p from Partido p order by p.fecha desc;
+select p from Partido p where p.equipoLocal.nombre = 'Rojo' or p.equipoVisitante.nombre = 'Rojo' order by p.fecha asc;

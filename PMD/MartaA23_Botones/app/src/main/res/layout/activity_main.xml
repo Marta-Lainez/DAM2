@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="33dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="BOTONES VARIADOS"
+            android:textAlignment="gravity"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="No has pulsado nada aun"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="250dp">
+
+        <LinearLayout
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/tb1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib1"
+                    app:srcCompat="@drawable/_058768" />
+
+                <ImageButton
+                    android:id="@+id/ib2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib2"
+                    app:srcCompat="@drawable/_31200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib3"
+                    app:srcCompat="@drawable/_63057" />
+
+                <ImageButton
+                    android:id="@+id/ib4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib4"
+                    app:srcCompat="@drawable/_63062" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/tb2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib5"
+                    app:srcCompat="@drawable/_63084" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib6"
+                    app:srcCompat="@drawable/_63100" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/tb3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib7"
+                    app:srcCompat="@drawable/_63123" />
+
+                <ImageButton
+                    android:id="@+id/ib8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib8"
+                    app:srcCompat="@drawable/_63137" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib9"
+                    app:srcCompat="@drawable/_63145" />
+
+                <ImageButton
+                    android:id="@+id/ib10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="ib10"
+                    app:srcCompat="@drawable/_859732" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="285dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:drawableLeft="@drawable/ic_launcher_foreground"
+            android:drawableTop="@drawable/ic_launcher_foreground"
+            android:drawableRight="@drawable/ic_launcher_foreground"
+            android:drawableBottom="@drawable/ic_launcher_foreground"
+            android:onClick="b1"
+            android:text="Desmarcar" />
+    </LinearLayout>
+
+</LinearLayout>

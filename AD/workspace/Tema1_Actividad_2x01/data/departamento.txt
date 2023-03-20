@@ -1,0 +1,3 @@
+2;Informáticos;Planta 2
+1;Familia Lainez;Planta 10
+7;Ventas;Planta 5

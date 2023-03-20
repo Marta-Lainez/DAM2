@@ -1,0 +1,10 @@
+2)
+update replace 
+	/socios/socio[dni = "66663333D"] with 
+	<socio>
+	<dni>66663333D</dni>
+	<nombre>Laura Alicia Gutierrez</nombre>
+	<localidad>Calatayud</localidad>
+	<telefono>678112233</telefono>
+	<correo>lagutierrez@gmail.com</correo>
+	</socio>

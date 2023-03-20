@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MartaLainezEP1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Text for the button in Main. -->
+    <string name="open">Show form</string>
+    <string name="close">Hide form</string>
+    <!-- Text for the elements in the fragment. -->
+    <string name="correo">E-mail:</string>
+    <string name="personal">Personal</string>
+    <string name="trabajo">Work</string>
+    <string name="guardarYcerrar">Save and close</string>
+</resources>

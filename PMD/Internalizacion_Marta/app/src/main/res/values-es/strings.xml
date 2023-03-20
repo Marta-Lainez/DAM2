@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Internalizacion_Marta</string>
+    <string name="word01">Ordenador</string>
+    <string name="word02">Portatil</string>
+    <string name="language01">Inglés</string>
+    <string name="language02">Español</string>
+</resources>

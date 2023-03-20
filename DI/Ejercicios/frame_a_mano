@@ -1,0 +1,124 @@
+# Import necessary modules
+import sys
+from PyQt6.QtWidgets import (QApplication, QFrame, QSizePolicy
+,QMainWindow,QLabel,QGridLayout,QWidget) 
+from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QFont,QAction
+
+        
+class MainWindow(QMainWindow):
+
+    def __init__(self):
+        super().__init__() 
+        self.initializeUI()
+
+    def initializeUI(self):
+        """Set up the application's GUI."""
+        self.setWindowTitle("Frames a mano")
+        self.setFixedSize(800,400)
+        self.UiComponents()
+        self.show()
+
+    def UiComponents(self):
+        
+        main=QWidget()
+        grid = QGridLayout()
+
+        self.setCentralWidget(main)
+
+        main.setLayout(grid)
+
+        #Ventana Box
+        label_box = QLabel("Box with plain shadow")
+        grid_box = QGridLayout()
+        grid_box.addWidget(label_box, 0, 0)
+
+        frame_box = QFrame(main)
+
+        # tipo de frame
+        frame_box.setFrameShape(QFrame.Shape.Box)
+        size_policy = QSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Preferred)
+        frame_box.setSizePolicy(size_policy)
+
+        # sombreado del borde
+        frame_box.setFrameShadow(QFrame.Shadow.Plain)
+        frame_box.setLineWidth(13)
+        frame_box.setMidLineWidth(2)
+
+        frame_box.setLayout(grid_box)
+        
+        grid.addWidget(frame_box, 0, 0)
+
+        # Ventana Panel
+        label_panel = QLabel("Panel with raised thick shadow")
+        grid_panel = QGridLayout()
+        grid_panel.addWidget(label_panel, 0, 0)
+
+        frame_panel = QFrame(main) 
+
+        # tipo de frame
+        frame_panel.setFrameShape(QFrame.Shape.Panel)
+        size_policy = QSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Preferred)
+        frame_panel.setSizePolicy(size_policy)
+
+        # sombreado del borde
+        frame_panel.setFrameShadow(QFrame.Shadow.Raised)
+        frame_panel.setLineWidth(20)
+        frame_panel.setMidLineWidth(5)
+
+        frame_panel.setLayout(grid_panel)
+        
+        grid.addWidget(frame_panel,0,1)
+
+        # Ventana StyledPanel
+        label_styled_panel = QLabel("Styled panel with plain shadow")
+        grid_styled_panel = QGridLayout()
+        grid_styled_panel.addWidget(label_styled_panel, 0, 0)
+
+        frame_styled_panel = QFrame(main)
+
+        # tipo de frame
+        frame_styled_panel.setFrameShape(QFrame.Shape.StyledPanel)
+        size_policy = QSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Preferred)
+        frame_styled_panel.setSizePolicy(size_policy) # expansión
+
+        # sombreado del borde
+        frame_styled_panel.setFrameShadow(QFrame.Shadow.Plain)
+        frame_styled_panel.setLineWidth(13)
+        frame_styled_panel.setMidLineWidth(2)
+
+        frame_styled_panel.setLayout(grid_styled_panel)
+        grid.addWidget(frame_styled_panel,1,0)
+
+        # Ventana NoFrame
+        label_no_frame = QLabel("No frame with sunken shadow")
+        grid_no_frame = QGridLayout()
+        grid_no_frame.addWidget(label_no_frame, 0, 0)
+
+        frame_no_frame = QFrame(main)
+        # tipo de frame
+        frame_no_frame.setFrameShape(QFrame.Shape.NoFrame)
+        size_policy = QSizePolicy(
+            QSizePolicy.Policy.Expanding,
+            QSizePolicy.Policy.Preferred)
+
+        frame_no_frame.setSizePolicy(size_policy) # expansión
+        # sombreado del borde
+        frame_no_frame.setFrameShadow(QFrame.Shadow.Sunken)
+        frame_no_frame.setLineWidth(10)
+        frame_no_frame.setMidLineWidth(7)
+
+        frame_no_frame.setLayout(grid_no_frame)
+
+        grid.addWidget(frame_no_frame,1,1)
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    sys.exit(app.exec())
