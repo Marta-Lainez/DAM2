@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Libro {
 	private int codigo;
@@ -5,19 +7,27 @@ public class Libro {
 	private String autor;
 	private int agno;
 	private String genero;
-	
-	public Libro(int codigo, String titulo, String autor, int agno, String genero) {
+	private List<String> partes;
+	private int numPaginas;
+	private List <String> personajes;
+	public Libro(int codigo, String titulo, String autor, int agno, String genero, List<String> partes,
+			int numPaginas, List<String> personajes) {
+		super();
 		this.codigo = codigo;
 		this.titulo = titulo;
 		this.autor = autor;
 		this.agno = agno;
 		this.genero = genero;
+		this.partes = partes;
+		this.numPaginas = numPaginas;
+		this.personajes = personajes;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "Libros [codigo=" + codigo + ", titulo=" + titulo + ", autor=" + autor + ", agno=" + agno + ", genero="
-				+ genero + "]";
+		return "Libro [codigo=" + codigo + ", titulo=" + titulo + ", autor=" + autor + ", agno=" + agno + ", genero="
+				+ genero + ", partes=" + partes + ", numero_paginas=" + numPaginas + ", personajes=" + personajes
+				+ "]";
 	}
 
 	public int getCodigo() {
@@ -59,6 +69,32 @@ public class Libro {
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
+
+	public List<String> getPartes() {
+		return partes;
+	}
+
+	public void setPartes(ArrayList<String> partes) {
+		this.partes = partes;
+	}
+
+	public int getNumPaginas() {
+		return numPaginas;
+	}
+
+	public void setNumPaginas(int numPaginas) {
+		this.numPaginas = numPaginas;
+	}
+
+	public List<String> getPersonajes() {
+		return personajes;
+	}
+
+	public void setPersonajes(ArrayList<String> personajes) {
+		this.personajes = personajes;
+	}
+	
+	
 
 	
 }

@@ -4,6 +4,7 @@ import static com.mongodb.client.model.Updates.combine;
 import static com.mongodb.client.model.Updates.set;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.bson.Document;
 import org.bson.conversions.Bson;
@@ -30,6 +31,9 @@ public class AccesoLibros {
 			libroDoc.put("autor", libro.getAutor());
 			libroDoc.put("agno", libro.getAgno());
 			libroDoc.put("genero", libro.getGenero());
+			libroDoc.put("partes", libro.getPartes());
+			libroDoc.put("numero_paginas", libro.getNumPaginas());
+			libroDoc.put("personajes", libro.getPersonajes());
 			libros.insertOne(libroDoc);
 		
 		cliente.close();
@@ -46,7 +50,10 @@ public class AccesoLibros {
 			String autor = libroDoc.getString("autor");
 			int agno = libroDoc.getInteger("agno");
 			String genero = libroDoc.getString("genero");
-			libro = new Libro(codigo, titulo, autor, agno, genero);
+			List<String> partes = libroDoc.getList("partes", null);
+			int numPaginas = libroDoc.getInteger("numero_paginas");
+			List<String> personajes = libroDoc.getList("personajes", null);
+			libro = new Libro(codigo, titulo, autor, agno, genero, partes, numPaginas, personajes);
 		}
 		
 		cliente.close();
@@ -70,8 +77,11 @@ public class AccesoLibros {
 			String autor = libroDoc.getString("autor");
 			int agno = libroDoc.getInteger("agno");
 			String genero = libroDoc.getString("genero");
+			List<String> partes = libroDoc.getList("partes", null);
+			int numPaginas = libroDoc.getInteger("numero_paginas");
+			List<String> personajes = libroDoc.getList("personajes", null);
+			libro = new Libro(codigo, titulo, autor, agno, genero, partes, numPaginas, personajes);
 			
-			libro = new Libro(codigo, titulo, autor, agno, genero);
 			listaLibros.add(libro);
 		}
 		
@@ -79,6 +89,7 @@ public class AccesoLibros {
 		return listaLibros;
 		
 	}
+	// ARREGLAR A PARTIR DE AQUI
 	public static long actualizarLibro(Libro libro) {
 		int codigo = libro.getCodigo();
 		String titulo = libro.getTitulo();

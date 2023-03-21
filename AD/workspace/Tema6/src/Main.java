@@ -31,7 +31,20 @@ public class Main {
 			String autor = Teclado.leerCadena("Autor: ");
 			int agno = Teclado.leerEntero("Año: ");
 			String genero = Teclado.leerCadena("Género: ");
-			libro = new Libro(codigo, titulo, autor, agno, genero);
+			int numPartes = Teclado.leerEntero("Número de partes: ");
+			ArrayList<String> partes = new ArrayList<>(numPartes);
+			for(int i = 1 ; i <= numPartes; i++) {
+				String parte = Teclado.leerCadena("Parte " + i + ": ");
+				partes.add(parte);
+			}
+			int numPaginas = Teclado.leerEntero("Número de páginas :");
+			int numPersonajes = Teclado.leerEntero("Número de personajes: ");
+			ArrayList<String> personajes = new ArrayList<>(numPersonajes);
+			for(int i = 1 ; i <= numPersonajes; i++) {
+				String personaje = Teclado.leerCadena("Personaje " + i + ": ");
+				personajes.add(personaje);
+			}
+			libro = new Libro(codigo, titulo, autor, agno, genero, partes, numPaginas, personajes);
 			AccesoLibros.insertarLibro(libro);
 			System.out.println("Se ha insertado un libro en la base de datos.");
 		}
