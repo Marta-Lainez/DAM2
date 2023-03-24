@@ -29,16 +29,16 @@ public class Main {
 		if(libro == null) {
 			String titulo = Teclado.leerCadena("Título: ");
 			String autor = Teclado.leerCadena("Autor: ");
-			int agno = Teclado.leerEntero("Año: ");
+			Integer agno = Teclado.leerEntero("Año: ");
 			String genero = Teclado.leerCadena("Género: ");
-			int numPartes = Teclado.leerEntero("Número de partes: ");
+			Integer numPartes = Teclado.leerEntero("Número de partes: ");
 			ArrayList<String> partes = new ArrayList<>(numPartes);
 			for(int i = 1 ; i <= numPartes; i++) {
 				String parte = Teclado.leerCadena("Parte " + i + ": ");
 				partes.add(parte);
 			}
-			int numPaginas = Teclado.leerEntero("Número de páginas :");
-			int numPersonajes = Teclado.leerEntero("Número de personajes: ");
+			Integer numPaginas = Teclado.leerEntero("Número de páginas:");
+			Integer numPersonajes = Teclado.leerEntero("Número de personajes: ");
 			ArrayList<String> personajes = new ArrayList<>(numPersonajes);
 			for(int i = 1 ; i <= numPersonajes; i++) {
 				String personaje = Teclado.leerCadena("Personaje " + i + ": ");
@@ -66,7 +66,7 @@ public class Main {
 		}
 	}
 	public static void consultaLibro() {
-		int codigo = Teclado.leerEntero("Código: ");
+		Integer codigo = Teclado.leerEntero("Código: ");
 		Libro libro = AccesoLibros.consultarLibroPorCodigo(codigo);
 		if(libro == null) {
 			System.out.println("No existe ningún libro con ese código en la base de datos.");
@@ -76,7 +76,7 @@ public class Main {
 		}
 	}
 	public static void actualizarLibro() {
-		int codigo = Teclado.leerEntero("Código: ");
+		Integer codigo = Teclado.leerEntero("Código: ");
 		Libro libro = AccesoLibros.consultarLibroPorCodigo(codigo);
 		if(libro == null) {
 			System.out.println("No existe ningún libro con ese código en la base de datos.");
@@ -84,16 +84,29 @@ public class Main {
 		else {
 			String titulo = Teclado.leerCadena("Título: ");
 			String autor = Teclado.leerCadena("Autor: ");
-			int agno = Teclado.leerEntero("Año: ");
+			Integer agno = Teclado.leerEntero("Año: ");
 			String genero = Teclado.leerCadena("Género: ");
-			libro = new Libro(codigo, titulo, autor, agno, genero);
+			Integer numPartes = Teclado.leerEntero("Número de partes: ");
+			ArrayList<String> partes = new ArrayList<>(numPartes);
+			for(int i = 1 ; i <= numPartes; i++) {
+				String parte = Teclado.leerCadena("Parte " + i + ": ");
+				partes.add(parte);
+			}
+			Integer numPaginas = Teclado.leerEntero("Número de páginas:");
+			Integer numPersonajes = Teclado.leerEntero("Número de personajes: ");
+			ArrayList<String> personajes = new ArrayList<>(numPersonajes);
+			for(int i = 1 ; i <= numPersonajes; i++) {
+				String personaje = Teclado.leerCadena("Personaje " + i + ": ");
+				personajes.add(personaje);
+			}
+			libro = new Libro(codigo, titulo, autor, agno, genero, partes, numPaginas, personajes);
 			long actualizaciones = AccesoLibros.actualizarLibro(libro);
 			System.out.println("Ha habido " + actualizaciones + " actualizaciones.");
 			System.out.println(libro.toString());
 		}
 	}
 	public static void eliminarLibro() {
-		int codigo = Teclado.leerEntero("Código: ");
+		Integer codigo = Teclado.leerEntero("Código: ");
 		Libro libro = AccesoLibros.consultarLibroPorCodigo(codigo);
 		if(libro == null) {
 			System.out.println("No existe ningún libro con ese código en la base de datos.");

@@ -2,16 +2,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Libro {
-	private int codigo;
+	private Integer codigo;
 	private String titulo;
 	private String autor;
-	private int agno;
+	private Integer agno;
 	private String genero;
 	private List<String> partes;
-	private int numPaginas;
+	private Integer numPaginas;
 	private List <String> personajes;
-	public Libro(int codigo, String titulo, String autor, int agno, String genero, List<String> partes,
-			int numPaginas, List<String> personajes) {
+	public Libro(Integer codigo, String titulo, String autor, Integer agno, String genero, List<String> partes,
+			Integer numPaginas, List<String> personajes) {
 		super();
 		this.codigo = codigo;
 		this.titulo = titulo;
@@ -30,11 +30,11 @@ public class Libro {
 				+ "]";
 	}
 
-	public int getCodigo() {
+	public Integer getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(int codigo) {
+	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
 
@@ -54,11 +54,11 @@ public class Libro {
 		this.autor = autor;
 	}
 
-	public int getAgno() {
+	public Integer getAgno() {
 		return agno;
 	}
 
-	public void setAgno(int agno) {
+	public void setAgno(Integer agno) {
 		this.agno = agno;
 	}
 
@@ -74,15 +74,15 @@ public class Libro {
 		return partes;
 	}
 
-	public void setPartes(ArrayList<String> partes) {
+	public void setPartes(List<String> partes) {
 		this.partes = partes;
 	}
 
-	public int getNumPaginas() {
+	public Integer getNumPaginas() {
 		return numPaginas;
 	}
 
-	public void setNumPaginas(int numPaginas) {
+	public void setNumPaginas(Integer numPaginas) {
 		this.numPaginas = numPaginas;
 	}
 
@@ -90,10 +90,9 @@ public class Libro {
 		return personajes;
 	}
 
-	public void setPersonajes(ArrayList<String> personajes) {
+	public void setPersonajes(List<String> personajes) {
 		this.personajes = personajes;
 	}
-	
 	
 
 	
