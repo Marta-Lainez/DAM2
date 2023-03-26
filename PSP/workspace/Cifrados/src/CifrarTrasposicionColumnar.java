@@ -30,18 +30,29 @@ public class CifrarTrasposicionColumnar {
 		 System.out.println("Filas:" + numFilas);
 		 
 		// Recorremos la matriz
-		for(int i = 0; i < columnas; i++) {
-			int contador = 0;
-			for(int j = 0; j < numFilas; j++) {
-				char letra = nuevaCadena.charAt(contador);
-				matriz[i][j] = letra;
-				contador++;
-			}
-		}
-		// Sacamos la frase cifrada
+		int contador = 0;
 		for(int i = 0; i < numFilas; i++) {
 			for(int j = 0; j < columnas; j++) {
-				Character letra = matriz[i][j];
+				if(contador < nuevaCadena.length()) {
+					char letra = nuevaCadena.charAt(contador);
+					matriz[i][j] = letra;
+					contador++;
+				}
+			}
+		}
+		/*
+		// imprimir contenido de la matriz
+		for(int i = 0; i < numFilas; i++) {
+			for(int j = 0; j < columnas; j++) {
+			System.out.print(matriz[i][j]);	
+			}
+			System.out.println();
+		}
+		*/
+		// Sacamos la frase cifrada
+		for(int i = 0; i < columnas; i++) {
+			for(int j = 0; j < numFilas; j++) {
+				Character letra = matriz[j][i];
 				if(letra != null)
 				cifrado += letra;
 			}
