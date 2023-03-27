@@ -99,8 +99,6 @@ public class AccesoJuegos {
 				cliente.close();
 			}
 		}
-
-
 	}
 	public static long actualizarJuego(Videojuego videojuego) {
 		MongoClient cliente = new MongoClient();
